@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB7FF3B1E51AC3900F6B94C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7FF3A1E51AC3900F6B94C /* main.m */; };
+		3CB7FF3E1E51AC3900F6B94C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7FF3D1E51AC3900F6B94C /* AppDelegate.m */; };
+		3CB7FF411E51AC3900F6B94C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7FF401E51AC3900F6B94C /* ViewController.m */; };
+		3CB7FF441E51AC3900F6B94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB7FF421E51AC3900F6B94C /* Main.storyboard */; };
+		3CB7FF461E51AC3900F6B94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB7FF451E51AC3900F6B94C /* Assets.xcassets */; };
+		3CB7FF491E51AC3900F6B94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB7FF471E51AC3900F6B94C /* LaunchScreen.storyboard */; };
+		3CB7FF541E51AC3900F6B94C /* SpringTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7FF531E51AC3900F6B94C /* SpringTableViewTests.m */; };
+		3CB7FF5F1E51AC3900F6B94C /* SpringTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7FF5E1E51AC3900F6B94C /* SpringTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CB7FF501E51AC3900F6B94C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB7FF2E1E51AC3900F6B94C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB7FF351E51AC3900F6B94C;
+			remoteInfo = SpringTableView;
+		};
+		3CB7FF5B1E51AC3900F6B94C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB7FF2E1E51AC3900F6B94C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB7FF351E51AC3900F6B94C;
+			remoteInfo = SpringTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB7FF361E51AC3900F6B94C /* SpringTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB7FF3A1E51AC3900F6B94C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CB7FF3C1E51AC3900F6B94C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CB7FF3D1E51AC3900F6B94C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CB7FF3F1E51AC3900F6B94C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CB7FF401E51AC3900F6B94C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CB7FF431E51AC3900F6B94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CB7FF451E51AC3900F6B94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CB7FF481E51AC3900F6B94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CB7FF4A1E51AC3900F6B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB7FF4F1E51AC3900F6B94C /* SpringTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB7FF531E51AC3900F6B94C /* SpringTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringTableViewTests.m; sourceTree = "<group>"; };
+		3CB7FF551E51AC3900F6B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB7FF5A1E51AC3900F6B94C /* SpringTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB7FF5E1E51AC3900F6B94C /* SpringTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringTableViewUITests.m; sourceTree = "<group>"; };
+		3CB7FF601E51AC3900F6B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB7FF331E51AC3900F6B94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB7FF4C1E51AC3900F6B94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB7FF571E51AC3900F6B94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB7FF2D1E51AC3900F6B94C = {
+			isa = PBXGroup;
+			children = (
+				3CB7FF381E51AC3900F6B94C /* SpringTableView */,
+				3CB7FF521E51AC3900F6B94C /* SpringTableViewTests */,
+				3CB7FF5D1E51AC3900F6B94C /* SpringTableViewUITests */,
+				3CB7FF371E51AC3900F6B94C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB7FF371E51AC3900F6B94C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB7FF361E51AC3900F6B94C /* SpringTableView.app */,
+				3CB7FF4F1E51AC3900F6B94C /* SpringTableViewTests.xctest */,
+				3CB7FF5A1E51AC3900F6B94C /* SpringTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB7FF381E51AC3900F6B94C /* SpringTableView */ = {
+			isa = PBXGroup;
+			children = (
+				3CB7FF3C1E51AC3900F6B94C /* AppDelegate.h */,
+				3CB7FF3D1E51AC3900F6B94C /* AppDelegate.m */,
+				3CB7FF3F1E51AC3900F6B94C /* ViewController.h */,
+				3CB7FF401E51AC3900F6B94C /* ViewController.m */,
+				3CB7FF421E51AC3900F6B94C /* Main.storyboard */,
+				3CB7FF451E51AC3900F6B94C /* Assets.xcassets */,
+				3CB7FF471E51AC3900F6B94C /* LaunchScreen.storyboard */,
+				3CB7FF4A1E51AC3900F6B94C /* Info.plist */,
+				3CB7FF391E51AC3900F6B94C /* Supporting Files */,
+			);
+			path = SpringTableView;
+			sourceTree = "<group>";
+		};
+		3CB7FF391E51AC3900F6B94C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CB7FF3A1E51AC3900F6B94C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CB7FF521E51AC3900F6B94C /* SpringTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB7FF531E51AC3900F6B94C /* SpringTableViewTests.m */,
+				3CB7FF551E51AC3900F6B94C /* Info.plist */,
+			);
+			path = SpringTableViewTests;
+			sourceTree = "<group>";
+		};
+		3CB7FF5D1E51AC3900F6B94C /* SpringTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB7FF5E1E51AC3900F6B94C /* SpringTableViewUITests.m */,
+				3CB7FF601E51AC3900F6B94C /* Info.plist */,
+			);
+			path = SpringTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB7FF351E51AC3900F6B94C /* SpringTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB7FF631E51AC3900F6B94C /* Build configuration list for PBXNativeTarget "SpringTableView" */;
+			buildPhases = (
+				3CB7FF321E51AC3900F6B94C /* Sources */,
+				3CB7FF331E51AC3900F6B94C /* Frameworks */,
+				3CB7FF341E51AC3900F6B94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringTableView;
+			productName = SpringTableView;
+			productReference = 3CB7FF361E51AC3900F6B94C /* SpringTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CB7FF4E1E51AC3900F6B94C /* SpringTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB7FF661E51AC3900F6B94C /* Build configuration list for PBXNativeTarget "SpringTableViewTests" */;
+			buildPhases = (
+				3CB7FF4B1E51AC3900F6B94C /* Sources */,
+				3CB7FF4C1E51AC3900F6B94C /* Frameworks */,
+				3CB7FF4D1E51AC3900F6B94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB7FF511E51AC3900F6B94C /* PBXTargetDependency */,
+			);
+			name = SpringTableViewTests;
+			productName = SpringTableViewTests;
+			productReference = 3CB7FF4F1E51AC3900F6B94C /* SpringTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CB7FF591E51AC3900F6B94C /* SpringTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB7FF691E51AC3900F6B94C /* Build configuration list for PBXNativeTarget "SpringTableViewUITests" */;
+			buildPhases = (
+				3CB7FF561E51AC3900F6B94C /* Sources */,
+				3CB7FF571E51AC3900F6B94C /* Frameworks */,
+				3CB7FF581E51AC3900F6B94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB7FF5C1E51AC3900F6B94C /* PBXTargetDependency */,
+			);
+			name = SpringTableViewUITests;
+			productName = SpringTableViewUITests;
+			productReference = 3CB7FF5A1E51AC3900F6B94C /* SpringTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB7FF2E1E51AC3900F6B94C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "董知樾";
+				TargetAttributes = {
+					3CB7FF351E51AC3900F6B94C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3CB7FF4E1E51AC3900F6B94C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CB7FF351E51AC3900F6B94C;
+					};
+					3CB7FF591E51AC3900F6B94C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3CB7FF351E51AC3900F6B94C;
+					};
+				};
+			};
+			buildConfigurationList = 3CB7FF311E51AC3900F6B94C /* Build configuration list for PBXProject "SpringTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB7FF2D1E51AC3900F6B94C;
+			productRefGroup = 3CB7FF371E51AC3900F6B94C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB7FF351E51AC3900F6B94C /* SpringTableView */,
+				3CB7FF4E1E51AC3900F6B94C /* SpringTableViewTests */,
+				3CB7FF591E51AC3900F6B94C /* SpringTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB7FF341E51AC3900F6B94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB7FF491E51AC3900F6B94C /* LaunchScreen.storyboard in Resources */,
+				3CB7FF461E51AC3900F6B94C /* Assets.xcassets in Resources */,
+				3CB7FF441E51AC3900F6B94C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB7FF4D1E51AC3900F6B94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB7FF581E51AC3900F6B94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB7FF321E51AC3900F6B94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB7FF411E51AC3900F6B94C /* ViewController.m in Sources */,
+				3CB7FF3E1E51AC3900F6B94C /* AppDelegate.m in Sources */,
+				3CB7FF3B1E51AC3900F6B94C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB7FF4B1E51AC3900F6B94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB7FF541E51AC3900F6B94C /* SpringTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB7FF561E51AC3900F6B94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB7FF5F1E51AC3900F6B94C /* SpringTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CB7FF511E51AC3900F6B94C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB7FF351E51AC3900F6B94C /* SpringTableView */;
+			targetProxy = 3CB7FF501E51AC3900F6B94C /* PBXContainerItemProxy */;
+		};
+		3CB7FF5C1E51AC3900F6B94C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB7FF351E51AC3900F6B94C /* SpringTableView */;
+			targetProxy = 3CB7FF5B1E51AC3900F6B94C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CB7FF421E51AC3900F6B94C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB7FF431E51AC3900F6B94C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CB7FF471E51AC3900F6B94C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB7FF481E51AC3900F6B94C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB7FF611E51AC3900F6B94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB7FF621E51AC3900F6B94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB7FF641E51AC3900F6B94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpringTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.SpringTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB7FF651E51AC3900F6B94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpringTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.SpringTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CB7FF671E51AC3900F6B94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpringTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.SpringTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringTableView.app/SpringTableView";
+			};
+			name = Debug;
+		};
+		3CB7FF681E51AC3900F6B94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpringTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.SpringTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringTableView.app/SpringTableView";
+			};
+			name = Release;
+		};
+		3CB7FF6A1E51AC3900F6B94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpringTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.SpringTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpringTableView;
+			};
+			name = Debug;
+		};
+		3CB7FF6B1E51AC3900F6B94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpringTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.SpringTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpringTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB7FF311E51AC3900F6B94C /* Build configuration list for PBXProject "SpringTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB7FF611E51AC3900F6B94C /* Debug */,
+				3CB7FF621E51AC3900F6B94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB7FF631E51AC3900F6B94C /* Build configuration list for PBXNativeTarget "SpringTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB7FF641E51AC3900F6B94C /* Debug */,
+				3CB7FF651E51AC3900F6B94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB7FF661E51AC3900F6B94C /* Build configuration list for PBXNativeTarget "SpringTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB7FF671E51AC3900F6B94C /* Debug */,
+				3CB7FF681E51AC3900F6B94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB7FF691E51AC3900F6B94C /* Build configuration list for PBXNativeTarget "SpringTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB7FF6A1E51AC3900F6B94C /* Debug */,
+				3CB7FF6B1E51AC3900F6B94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB7FF2E1E51AC3900F6B94C /* Project object */;
+}
