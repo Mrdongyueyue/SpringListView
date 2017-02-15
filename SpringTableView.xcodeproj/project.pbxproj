@@ -15,6 +15,7 @@
 		3CB7FF491E51AC3900F6B94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB7FF471E51AC3900F6B94C /* LaunchScreen.storyboard */; };
 		3CB7FF541E51AC3900F6B94C /* SpringTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7FF531E51AC3900F6B94C /* SpringTableViewTests.m */; };
 		3CB7FF5F1E51AC3900F6B94C /* SpringTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7FF5E1E51AC3900F6B94C /* SpringTableViewUITests.m */; };
+		3CC0242D1E529DEE00E0AFF3 /* YYSpringLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0242C1E529DEE00E0AFF3 /* YYSpringLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3CB7FF5A1E51AC3900F6B94C /* SpringTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB7FF5E1E51AC3900F6B94C /* SpringTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringTableViewUITests.m; sourceTree = "<group>"; };
 		3CB7FF601E51AC3900F6B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC0242B1E529DEE00E0AFF3 /* YYSpringLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpringLayout.h; sourceTree = "<group>"; };
+		3CC0242C1E529DEE00E0AFF3 /* YYSpringLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpringLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3CB7FF3D1E51AC3900F6B94C /* AppDelegate.m */,
 				3CB7FF3F1E51AC3900F6B94C /* ViewController.h */,
 				3CB7FF401E51AC3900F6B94C /* ViewController.m */,
+				3CC0242B1E529DEE00E0AFF3 /* YYSpringLayout.h */,
+				3CC0242C1E529DEE00E0AFF3 /* YYSpringLayout.m */,
 				3CB7FF421E51AC3900F6B94C /* Main.storyboard */,
 				3CB7FF451E51AC3900F6B94C /* Assets.xcassets */,
 				3CB7FF471E51AC3900F6B94C /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				3CB7FF411E51AC3900F6B94C /* ViewController.m in Sources */,
 				3CB7FF3E1E51AC3900F6B94C /* AppDelegate.m in Sources */,
+				3CC0242D1E529DEE00E0AFF3 /* YYSpringLayout.m in Sources */,
 				3CB7FF3B1E51AC3900F6B94C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +513,7 @@
 				3CB7FF651E51AC3900F6B94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CB7FF661E51AC3900F6B94C /* Build configuration list for PBXNativeTarget "SpringTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				3CB7FF681E51AC3900F6B94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CB7FF691E51AC3900F6B94C /* Build configuration list for PBXNativeTarget "SpringTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				3CB7FF6B1E51AC3900F6B94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
